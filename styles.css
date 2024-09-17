@@ -8,11 +8,11 @@ img{
         width: 200px;
 }
 
-td, p, hr{
+.job-title, td, p, hr{
         color: #676767;
 }
 
-strong, h1,h4{
+strong, h1, h3 p, h4{
         color: #f4f4ee;
 }
 
@@ -57,16 +57,33 @@ a{
 }
 
 
-#section2{
+#lower-section{
         border-top: 1px solid #676767;
         margin: 0;
         display: flex;
+}
+
+#section2{
+        width: 60%;
 }
 
 #section2 h4{
         background: #373737;
         font-weight: 500;
         border-radius: 10% 0 0 10%;
+}
+
+h3, .job-title{
+        margin: 0;
+}
+
+.job-school{
+        margin: 0;
+        padding: 0;
+}
+
+.description{
+        margin: 15px 0px;
 }
 
 #section2 .down{
